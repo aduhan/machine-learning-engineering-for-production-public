@@ -3,7 +3,7 @@ from main import clf
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
-def tes_accuracy():
+def test_accuracy():
 
     # Load test data
     with open("data/test_data.pkl", "rb") as file:
